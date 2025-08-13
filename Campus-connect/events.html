@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Upcoming Events</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #0d0d0d;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+    }
+    nav {
+        display: flex;
+        background-color: #1a1a1a;
+        padding: 10px;
+        gap: 10px;
+        justify-content: center;
+        z-index: 10;
+        position: relative;
+    }
+    nav a {
+        background-color: #2a2a2a;
+        color: #fff;
+        padding: 8px 16px;
+        border-radius: 6px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background 0.3s ease;
+    }
+    nav a:hover {
+        background-color: #ff6600;
+    }
+    /* Hero section */
+    .hero {
+        position: relative;
+        width: 100%;
+        height: 600px;
+        overflow: hidden;
+    }
+    .hero img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: brightness(65%);
+    }
+    .hero-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+    }
+    .hero-text h1 {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+    }
+    .hero-text p {
+        font-size: 1.2rem;
+    }
+    /* Event list styling */
+    h1.section-title {
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    .event {
+        display: flex;
+        background-color: #141414;
+        margin: 20px auto;
+        padding: 15px;
+        border-radius: 10px;
+        max-width: 900px;
+        gap: 15px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+    .event img {
+        width: 200px;
+        height: 130px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+    .event-details {
+        flex: 1;
+    }
+    .event-details h2 {
+        color: #ff6600;
+        margin: 0 0 8px 0;
+    }
+    .event-details p {
+        margin: 4px 0;
+        line-height: 1.4;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+      <a href="registrations.html">Registrations</a>
+      <a href="events.html">Events</a>
+      <a href="contact.html">Contact</a>
+</nav>
+
+<!-- Hero Image Section -->
+<section class="hero">
+    <img src="https://vignan.ac.in/newvignan/departments/dep_assets/stu_culturals/stu_cul_cse2.jpg" alt="Hero Image">
+    <div class="hero-text">
+        <h1>Stay connected with our latest activities</h1>
+        <p>Your gateway to college events and registrations</p>
+    </div>
+</section>
+
+<h1 class="section-title">Upcoming Events</h1>
+
+<div class="event">
+    <img src="https://i.ytimg.com/vi/hj4jwraTFzk/hq720.jpg" alt="Tech Fest 2025">
+    <div class="event-details">
+        <h2>Tech Fest 2025</h2>
+        <p><strong>Date:</strong> March 15, 2025</p>
+        <p>Join us for an exciting day of tech talks, workshops, and competitions that will inspire and challenge your skills.</p>
+    </div>
+</div>
+
+<div class="event">
+    <img src="https://i.ytimg.com/vi/ZezfYglm74E/maxresdefault.jpg" alt="Sports Day">
+    <div class="event-details">
+        <h2>Sports Day</h2>
+        <p><strong>Date:</strong> April 20, 2025</p>
+        <p>A fun-filled day with sports, games, and activities for all students to showcase their athletic spirit.</p>
+    </div>
+</div>
+
+<div class="event">
+    <img src="https://kohinoor.edu.in/wp-content/uploads/2023/06/0T7A3996-1.jpg" alt="Cultural Night">
+    <div class="event-details">
+        <h2>Cultural Night</h2>
+        <p><strong>Date:</strong> May 10, 2025</p>
+        <p>Experience vibrant performances and celebrate the diverse culture of our campus with music, dance, and drama.</p>
+    </div>
+</div>
+
+<div class="event">
+    <img src="https://i.pinimg.com/736x/e1/e8/a9/e1e8a9b4e434e432931582bfc76490b6.jpg" alt="Coding Bootcamp">
+    <div class="event-details">
+        <h2>Coding Bootcamp</h2>
+        <p><strong>Date:</strong> July 3, 2025</p>
+        <p>Enhance your coding skills with an intensive workshop focused on programming techniques and best practices.</p>
+    </div>
+</div>
+
+<div class="event">
+    <img src="https://vignan.ac.in/images/h-about1.jpg" alt="Literary Showcase">
+    <div class="event-details">
+        <h2>Literary Showcase</h2>
+        <p><strong>Date:</strong> August 18, 2025</p>
+        <p>Share your love for literature through readings, poetry recitals, and storytelling sessions in a creative environment.</p>
+    </div>
+</div>
+
+</body>
+</html>
